@@ -20,7 +20,9 @@ const TodoForm = (props) => {
           onChange={(e) => setEnteredTodoText(e.target.value)}
         />
       </div>
-      <button type="submit">Add</button>
+      <button type="submit" className="btn-submit">
+        Add
+      </button>
     </form>
   );
 };
