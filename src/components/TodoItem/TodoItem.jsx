@@ -1,7 +1,7 @@
 import "./TodoItem.css";
 
 const TodoItem = ({ text }) => {
-  return <div>{text}</div>;
+  return <li className="todo-item">{text}</li>;
 };
 
 export default TodoItem;

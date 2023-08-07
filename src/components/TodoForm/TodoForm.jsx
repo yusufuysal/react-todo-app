@@ -13,7 +13,7 @@ const TodoForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className="form-control">
         <label>Add Todo</label>
         <input
           type="text"
